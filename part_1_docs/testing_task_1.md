@@ -45,8 +45,9 @@ def cards_total(self, cards):
   # total variable is not initialised to a value
   for card in cards:
     total += card.value
-    return "You have a total of" + total
+    return "You have a total of " + total
     # total should be converted to a string.
+    # space needed between of and "
     # return is indented too far to the right.
   
 ```
